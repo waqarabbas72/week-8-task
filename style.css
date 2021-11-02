@@ -1,0 +1,1620 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* header */
+header{
+    background-color: #5d12f8;
+    height: 90vh;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.logo{
+    font-size: 30px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 10px 0 10px;
+}
+
+.fa-bars{
+    color: white;
+    font-size: 25px;
+    display: none;
+}
+
+nav ul li:hover{
+    border-bottom: 2px solid white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* home */
+.home{
+    display: flex;
+    justify-content: space-around;
+}
+.top-img{
+    padding: 150px 0 0 100px;
+    transform: rotate(-45deg);
+}
+
+.top-img img{
+    border-radius: 20px;
+}
+.top-para{
+    text-align: end;
+    padding: 100px 100px 0 0;
+    color: white;
+}
+
+.top-para h1{
+    font-size: 40px;
+}
+
+.top-para p{
+    font-size: 25px;
+}
+
+.top-btn{
+    color: white;
+    font-size: 20px;
+    background: transparent;
+    padding: 10px 40px;
+    border: 2px solid white;
+    margin-top: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* section-1 */
+#sec-1 .boxes{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 20%;
+    height:  200px;
+    border: 0.5px solid rgb(197, 191, 191);
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    margin: -80px 10px 10px 10px;
+}
+
+.box img{
+    width: 40%;
+}
+.about-top{
+    text-align: center;
+    margin: 50px;
+}
+
+.about{
+    display: flex;
+}
+
+.text-a{
+    padding: 80px 100px 0 50px;
+}
+
+.img-about{
+    padding-left: 200px;
+}
+/* section-2 */
+
+#sec-2{
+    margin-top: 50px;
+    background-color: #fafafa;
+}
+
+.features-top{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.center{
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.options-l{
+    text-align: end;
+}
+
+.option{
+    margin: 10px;
+}
+
+.fa-desktop{
+    color: black;
+    font-size: 40px;
+}
+
+/* ratings */
+.ratings{
+    background-image: url(images/mountain.jpg);
+    width: auto;
+    height: 200px;
+}
+
+.color{
+    background-color: blue;
+    width: auto;
+    height: 200px;
+    opacity: .8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rate{
+    text-align: center;
+    color: white;
+}
+
+/* screenshot */
+.screenshot-top{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.slides img{
+    width: 100%;
+}
+
+/* section-3 */
+#sec-3 .top-text{
+    text-align: center;
+    margin: 80px 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.container div{
+    text-align: center;
+    width: 30%;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.container div span{
+  padding: 50px 0;
+}
+
+.container div p{
+    padding-bottom: 30px;
+}
+
+.container div img{
+    width: 30%; 
+    height: 100px; 
+    border-radius: 50%;
+    margin-top: -70px;
+}
+
+/* screenshots */
+
+.screenshot-top{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+/* section-3 */
+
+/* client says */
+.client{
+    text-align: center;
+    margin: 30px 0;
+}
+
+i{
+    cursor: pointer;
+}
+
+/* watch video demo */
+.demo{
+    background-image: url(images/mountain.jpg);
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    height: 250px;
+}
+
+.demo h1{
+    padding-top: 30px;
+}
+
+.demo p{
+    padding: 30px;
+}
+
+.color1{
+    background-color: blue;
+    opacity: 0.8;
+    height: 250px;
+}
+
+.color1 .fa-play-circle{
+    font-size: 50px;
+}
+
+/* pricing-top */
+ul li{
+    list-style-type: none;
+    margin: 10px;
+    color: grey;
+}
+.pricing-top{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.price-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.list-btn{
+    padding: 10px 30px;
+    margin: 30px 0;
+    border: 1px solid blue;
+    background: transparent;
+    cursor: pointer;
+}
+
+.price{
+    width: 25%;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid rgb(211, 207, 207);
+}
+
+.colorbox{
+    color: white;
+    background-color: blue;
+    padding: 30px 0 50px 0;
+}
+
+.colorbox span{
+    font-size: 30px;
+}
+
+/* section-4 */
+#sec-4{
+    background-color: #fafafa;
+    margin-top: 30px;
+}
+/* our amazing team */
+.team-top{
+    text-align: center;
+    padding: 50px 0;
+}
+.team{
+    display: flex;
+    justify-content: center;
+}
+
+.members{
+    text-align: center;
+    border: 1px solid rgb(235, 229, 229);
+    border-radius: 5px;
+    margin:10px;
+    height: 320px;
+    width: 18%;
+    padding: 30px;
+}
+.members img{
+    width: 100%;
+    height: 150px;
+    border-radius: 100px;
+    margin-bottom: 30PX;
+}
+
+.members h3{
+    margin-bottom: 10px;
+}
+.members i{
+    margin: 30px 5px;
+}
+
+/* team box */
+.teambox{
+    background-image: url(images/mountain.jpg);
+    height: 250px;
+    text-align: center;
+    color: white;
+}
+
+.color3{
+    height: 250px;
+    background-color: blue;
+    opacity: 0.9;
+    padding: 50px;
+}
+
+.color3 p{
+    padding: 30px 0;
+}
+
+.story-btn{
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin: 20px;
+    background:transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+/* section-5 */
+/* latest news */
+.latest-news{
+    display: flex;
+    justify-content: center;
+}
+.news-top{
+    text-align: center;
+    padding: 40px 0 30px 0;
+}
+.news {
+    width: 25%;
+}
+.news img {
+    width: 90%;
+    height: 200px;
+}
+.icons i{
+    margin: 8px 5px 8px 0;
+    font-size: 12px;
+}
+.news p{
+    padding: 5px 50px 0 0;
+}
+
+/* footer starts here */
+/* footer-top */
+.footer-top{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.form input{
+    padding: 5px 200px 5px 5px;
+    margin: 8px 50px 0 8px;
+    border: 1px solid rgb(224, 222, 222);
+}
+#t-area{
+    padding: 5px 155px 5px 5px ;
+    margin: 8px 50px 0 8px;
+    height: 100px;
+    border: 1px solid rgb(224, 222, 222);
+}
+.form button{
+    padding: 10px 50px;
+    margin: 8px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 3px;
+}
+.contact p{
+    margin-bottom: 20px;
+}
+.last-icons{
+    font-size: 30px;
+    margin-top: 20px;
+}
+/* footer last */
+.footer-last{
+    text-align: center;
+    padding: 20px 0 30px 0;
+    margin-top: 50px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+}
+
+
+/* css responsiveness */
+@media (max-width:950px) {
+    /* header */
+    header{
+        height: 75vh;
+    }
+
+    /* HOME */
+
+    .logo{
+        font-size: 28px;
+    }
+    
+    nav ul li{
+       font-size: 15px;
+       margin: 10px 8px 0 10px;
+    }
+
+    .top-img img{
+        width: auto;
+        height:250px ;
+    }
+    .top-para{
+        padding: 100px 90px 0 0;
+    }
+
+    .top-para h1{
+        font-size: 35px;
+    }
+    
+    .top-para p{
+        font-size: 23px;
+    }
+    
+    .top-btn{
+        font-size: 18px;
+        margin-top: 45px;
+    }
+   
+    /* section-1 */
+    .box{
+        height:  170px;
+        margin-top: -75px;
+    }
+    .box h2{
+        font-size: 20px;
+    }
+    
+    .box p{
+        font-size: 15px;
+    }
+
+    /* ABOUT */
+    .text-a{
+        padding: 80px 100px 0 50px;
+    }
+    
+    .img-about{
+        padding-left: 150px;
+    }
+
+    /* section-2 */
+    .option{
+        margin: 10px;
+        font-size: 15px;
+    }
+
+    /* section-3 */
+    .container div{
+        width: 35%;
+    }
+    
+    .container div img{
+        width: 50%; 
+    }
+
+    /* pricing plan */
+    .colorbox{
+        padding-bottom: 20px;
+    }
+
+    /* our amazing team */
+    .members{
+        height: 280px;
+        width: 19%;
+        padding: 10px;
+    }
+    .members img{
+        width: 60%;
+        height: 95px;
+    }
+
+    .members span{
+        font-size:15px;
+        padding: 0;
+    }
+
+    /* section-5 */
+    /* latest news */
+    .news{
+        margin: 10px;
+    }
+    .news h3{
+        font-size: 17px;
+    }
+    .news p{
+        padding:5px 20px 0 0; ;
+    }
+
+       /* footer */
+       .form{
+        margin-left: 30px;
+    }
+    .contact{
+        margin-right: 30px;
+    }
+}  
+
+/* css responsiveness-2 */
+@media (max-width:800px) {
+
+    /* header */
+    header{
+        height: 70vh;
+    }
+    
+     /* HOME */
+
+     .logo{
+        font-size: 25px;
+    }
+    
+    nav ul li{
+       font-size: 13px;
+    }
+
+    .top-para{
+        padding: 100px 70px 0 0;
+    }
+
+    .top-para h1{
+        font-size: 30px;
+    }
+    
+    .top-para p{
+        font-size: 20px;
+    }
+    
+    .top-btn{
+        font-size: 15px;
+        margin-top: 40px;
+    }
+
+    /* section-1 */
+    .box{
+        height:  130px;
+        margin-top: -70px;
+    }
+    .box h2{
+        font-size: 18px;
+    }
+    
+    .box p{
+        font-size: 14px;
+    }
+
+    /* ABOUT */
+    .text-a{
+        padding: 40px 10px 0 10px;
+    }
+
+    .text-a p{
+        font-size: 15px;
+    }
+    
+    .img-about{
+        padding: 40px 50px 0 150px;
+    }
+
+    .img-about img{
+        width: auto;
+        height: 400px;
+    }
+
+    /* section-2 */
+    .option{
+        margin: 15px;
+        font-size: 13px;
+    }
+
+    /* ratings */
+    .ratings{
+        height: 150px;
+    }
+
+    .color{
+        height: 150px;
+    }
+
+    .rate{
+        font-size: 15px;
+    }
+
+    /* section-3 */
+
+    .container div h3{
+        font-size: 18px;
+    }
+
+    .container div p{
+        font-size: 14px;
+    }
+
+    /* pricing plan */
+    .colorbox{
+        padding-bottom: 10px;
+    }
+
+    /* our team */
+     .members{
+        height: 250px;
+    }
+    .members img{
+        width: 60%;
+        height: 70px;
+    }
+
+    /* teambox */
+    .teambox{
+        margin-top: 10px;
+    }
+    .color3{
+        padding: 20px;
+    }
+    .story-btn{
+        padding: 10px 20px;
+    }
+    /* section-5 */
+    /* latest news */
+    .latest-news{
+        flex-wrap: wrap;
+    }
+    
+    .news {
+        width: 80%;
+        text-align: center;
+    }
+    .news img {
+        width: 90%;
+        height: 200px;
+    }
+    .icons i{
+        font-size: 12px;
+    }
+    .news p{
+        padding: 5px;
+    }
+
+    /* footer */
+    .form input{
+        padding-right: 100px;
+    }
+    .form textarea{
+        width: 80%;
+    }     
+}
+
+/* css responsiveness-3 */
+@media (max-width:700px) {
+    /* header */
+    header{
+        height: 65vh;
+    }
+    
+    /* HOME */
+
+    .logo{
+       font-size: 22px;
+   }
+   
+   nav ul li{
+      font-size: 12px;
+      margin: 10px 5px 0 10px;
+   }
+
+   .top-img img{
+    width: auto;
+    height:200px ;
+    }
+    
+   .top-para{
+    padding: 100px 40px 0 0;
+   }
+
+   .top-para h1{
+       font-size: 28px;
+   }
+   
+   .top-para p{
+       font-size: 18px;
+   }
+   
+   .top-btn{
+       font-size: 13px;
+       margin-top: 35px;
+       padding: 10px 35px;
+   }
+
+   /* section-1 */
+   .box{
+    height:  110px;
+    margin-top: -65px;
+    }
+    .box h2{
+        font-size: 16px;
+    }
+
+    .box p{
+        font-size: 12px;
+    }
+
+     /* ABOUT */
+
+     .about-top{
+        margin: 30px;
+    }
+    .about-top p{
+        font-size: 15px;
+    }
+     .text-a{
+        padding: 60px 10px 0 10px;
+    }
+
+    .text-a p{
+        font-size: 15px;
+    }
+    
+    .img-about{
+        padding: 40px 50px 0 80px;
+    }
+
+    .img-about img{
+        width: auto;
+        height: 450px;
+    }
+
+     /* section-2 */
+     .option{
+        margin: 15px 5px;
+        font-size: 12px;
+    }
+
+      /* ratings */
+      .ratings{
+        height: 130px;
+    }
+
+    .color{
+        height: 130px;
+    }
+
+    .rate{
+        font-size: 13px;
+    }
+      /* section-3 */
+    .members{
+        height: 200px;
+    }
+    .members img{
+        margin-bottom: 10px;
+    }        
+    .members span{
+        font-size:14px;
+    }
+    .members h3{
+        font-size:16px;
+    }
+    .members i{
+        margin: 20px 3px 0 3px;
+    }
+
+    /* teambox */
+    .teambox{
+        height: 200px;
+    }
+    .color3{
+        height: 200px;
+    }
+    .color3 p{
+        padding: 20px;
+    }
+    .story-btn{
+        margin: 10px;
+    }
+            
+ }
+
+/* css responsiveness-4 */
+@media (max-width:600px) {
+
+    /* header */
+    header{
+        height: 60vh;
+    }
+
+    /* HOME */
+
+    nav{
+        justify-content: space-between;  
+    }
+
+    .logo{
+       font-size: 20px;
+       margin-left: 30px;
+   }
+   
+   nav ul li{
+      display: none;
+   }
+
+   .fa-bars{
+    display: block;
+    margin-right: 30px;
+   }
+
+   .top-img{
+    padding: 150px 0 0 100px;
+    }
+
+   .top-para{
+    padding: 100px 30px 0 0;
+   }
+
+   .top-para h1{
+       font-size: 25px;
+   }
+   
+   .top-para p{
+       font-size: 15px;
+   }
+   
+   .top-btn{
+       font-size: 12px;
+       margin-top: 30px;
+       padding: 10px 30px;
+   }  
+
+    /* section-1 */
+    .box{
+        height: 110px;
+        margin-top: -60px;
+    }
+    .box h2{
+        font-size: 14px;
+    }
+    
+    .box p{
+        font-size: 11px;
+    }
+
+    /* ABOUT */
+    .text-a{
+        padding: 40px 10px 0 10px;
+    }
+
+    .text-a p{
+        font-size: 14px;
+    }
+    
+    .img-about{
+        padding: 30px 0px 0 70px;
+    }
+
+    .img-about img{
+        width: auto;
+        height: 400px;
+    }
+
+    /* section-2 */
+    .option{
+        margin: 15px 5px;
+        font-size: 11px;
+    }
+
+       /* ratings */
+       .ratings{
+        height: 100px;
+    }
+
+    .color{
+        height: 100px;
+    }
+
+    .rate{
+        font-size: 11px;
+    }
+
+     /* section-3 */
+
+     .container div h3{
+        font-size: 16px;
+    }
+
+    .container div span{
+        font-size: 14px;
+    }
+    .container div p{
+        font-size: 12px;
+    }
+
+    .container div img{
+        width: 50%; 
+        height: 80px; 
+    }
+
+    /* pricing-plan */
+    .colorbox{
+        padding: 10px 0 10px 0;
+    }
+    .price{
+        margin: 15px;
+    }
+
+    .colorbox h2{
+        font-size: 18px;
+    }
+    .list ul li{
+        font-size: 13px;
+    }
+    .list-btn{
+        margin: 10px 0;
+        padding: 10px 25px;
+    }
+       /* section-3 */
+       .members{
+        height: 170px;
+        width: 20%;
+    }
+    .members img{
+        width: 50%;
+        height: 50px;
+    }        
+    .members span{
+        font-size:13px;
+    }
+    .members h3{
+        font-size:14px;
+    }
+    .members i{
+        font-size: 12px;
+    }
+
+      /* footer */
+    
+    .contact{
+        margin-right: 20px;
+    }
+    .form input{
+        padding-right: 70px;
+    }
+    .footer-last p{
+        font-size: 14px;
+    }
+}
+
+/* css responsiveness-5 */
+@media (max-width:540px) {
+
+    /* header */
+    header{
+        height: 70vh;
+    }
+
+    /* HOME */
+    .top-img{
+        padding-left: 50px;
+    }
+
+   .top-para{
+    padding: 100px 25px 0 0;
+   }
+
+   .top-para h1{
+       font-size: 20px;
+   }
+   
+   .top-para p{
+       font-size: 13px;
+   }
+   
+   .top-btn{
+       font-size: 11px;
+       margin-top: 25px;
+       padding: 10px 25px;
+   }
+   
+   /* section-1 */
+   .box{
+    height: 110px;
+    margin-top: -55px;
+    }
+
+    .box h2{
+        font-size: 13px;
+    }
+
+    .box p{
+        font-size: 11px;
+    }
+
+    /* ABOUT */
+    .text-a{
+        padding: 30px 10px 0 10px;
+    }
+
+    .text-a p{
+        font-size: 13px;
+    }
+    
+    .img-about{
+        padding: 30px 0px 0 50px;
+    }
+
+    .img-about img{
+        width: 180px;
+        height: 350px;
+    }
+
+    /* section-3 */
+
+    .container div img{
+        width: 50%; 
+        height: 60px; 
+    }
+
+    /* watch video demo */
+    .demo{
+        height: 220px;
+    }
+
+    .demo h1{
+        padding-top: 20px;
+    }
+
+    .demo p{
+        padding: 20px 25px;
+    }
+
+    .color1{
+        height: 220px;
+    }
+
+    .color1 .fa-play-circle{
+        font-size: 40px;
+    }
+
+    
+    /* pricing-plan */
+  
+    .list ul li{
+        font-size: 12px;
+        margin: 5px;
+    }
+    .list-btn{
+        margin: 8px 2px;
+        padding: 8px 15px;
+    }
+     /* section-3 */
+     .members{
+        height: 160px;
+        margin: 5px;
+        padding: 10px 5px;
+    }
+    .members img{
+        width: 60%;
+    }        
+    .members span{
+        font-size:12px;
+    }
+    .members h3{
+        font-size:13px;
+    }
+
+    /* teambox */
+    .teambox{
+        height: 180px;
+    }
+    .color3{
+        height: 180px;
+    }
+    .color3 p{
+        padding: 15px;
+    }
+    .story-btn{
+      font-size: 10px;
+      margin: 8px;
+    }
+
+      /* footer */
+      .footer-top p{
+          font-size: 13px;
+      }
+      .footer-top h2{
+        font-size: 16px;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+    .form{
+        text-align: center;
+        margin: 0;
+    }
+      .contact{
+        font-size: 14px;  
+        margin:  0;
+        padding: 0;
+        text-align: center;
+    }
+    .form input{
+        margin: 10px;
+    }
+    #t-area{
+        margin: 10px;
+    }
+    .footer-last p{
+        font-size: 12px;
+    }
+}
+
+/* css responsiveness-6 */
+@media (max-width:450px) {
+
+    /* header */
+    header{
+        height: 70vh;
+    }
+
+    /* HOME */
+    .home{
+        flex-wrap: wrap;
+    }
+    .top-img{
+        transform: rotate(0);
+        padding: 10px 0 0 10px;
+        
+    }
+
+   .top-para{
+    padding: 50px 30px 0 30px;
+    text-align: center;
+   }
+
+   .top-para h1{
+       font-size: 30px;
+   }
+   
+   .top-para p{
+       font-size: 20px;
+   }
+
+   /* section-1 */
+   .box{
+    height: 80px;
+    margin-top: -40px;
+    }
+
+    .box h2{
+        font-size: 10px;
+    }
+
+    .box p{
+        font-size: 8px;
+    }
+
+    /* ABOUT */
+    .about-top h2{
+        font-size: 16px;
+    }
+
+    .about-top p{
+        font-size: 13px;
+    }
+
+    .text-a{
+        padding: 20px 10px 0 10px;
+    }
+
+    .text-a p{
+        font-size: 10px;
+    }
+    
+    .img-about{
+        padding: 20px 0px 0 20px;
+    }
+
+    .img-about img{
+        width: 100px;
+        height: 200px;
+    }
+
+    /* section-2 */
+    .option{
+        margin: 15px 5px;
+        font-size: 11px;
+    }
+
+    .features-top h2{
+        font-size: 16px;
+    }
+
+    .features-top p{
+        font-size: 13px;
+    }
+
+
+    .features-img img{
+        width: 150px;
+        height: auto;
+        padding-top: 30px;
+    }
+
+        /* ratings */
+        .ratings{
+            height: 80px;
+        }
+    
+        .color{
+            height: 80px;
+        }
+    
+        .rate{
+            font-size: 9px;
+        }
+
+        /* screenshots */
+    .screenshot-top h2{
+        font-size: 16px;
+    }
+    .screenshot-top p{
+        font-size: 13px;
+    }
+
+    /* section-3 */
+    .client h2{
+        font-size: 16px;
+    }
+
+    .client p{
+        font-size: 13px;
+    }
+
+      /* section-3 */
+      .demo{
+          height: 180px;
+      }
+      .color1{
+          height: 180px;
+      }
+
+      .container div h3{
+        font-size: 14px;
+    }
+
+    .container div span{
+        font-size: 12px;
+    }
+    .container div p{
+        font-size: 10px;
+    }
+
+    .container div img{
+        width: 50%; 
+        height: 50px; 
+    }
+
+    /* watch video demo */
+    .demo h1{
+        padding-top: 20px;
+        font-size: 16px;
+    }
+
+    .demo p{
+        font-size: 13px;
+    }
+    .color1 .fa-play-circle{
+        font-size: 35px;
+    }
+
+    /* pricing-plan */
+    .pricing-top{
+        margin: 20px;
+    }
+    .pricing-top h2{
+        font-size: 14px;
+    }
+    .pricing-top p{
+        font-size: 13px;
+    }
+    .colorbox h2{
+        font-size: 16px;
+    }
+    .colorbox span{
+        font-size: 25px;
+    }
+    .list ul li{
+        font-size: 10px;
+        margin: 5px;
+    }
+    .list-btn{
+        margin: 8px 2px;
+        padding: 5px 12px;
+        font-size: 10px;
+    }
+    .price{
+        margin: 10px;
+    }
+
+    /* section-3 */
+    /* our amazing team */
+    .team-top{
+        margin: 5px;
+        padding: 20px 0;
+    }
+    .team-top h2{
+        font-size: 16px ;
+    }
+    .team-top p{
+        font-size: 13px ;
+    }
+    .members{
+        width: 21%;
+        height: 160px;
+        margin: 3px;
+        padding:  6px 3px;
+    }
+    .members img{
+        width: 60%;
+    }        
+    .members span{
+        font-size:11px;
+    }
+
+    /* teambox */
+    .teambox{
+        height: 150px;
+    }
+    .color3{
+        height: 150px;
+    }
+    .color3 h2{
+        font-size: 16px;
+    }
+    .color3 p{
+        font-size: 13px;
+    }
+    .story-btn{
+      font-size: 10px;
+      margin: 5px;
+      padding: 5px 10px;
+    }
+
+    /* section-5 */
+    /* latest news */
+    .news-top h2{
+        font-size: 16px;
+    }
+    .news-top p{
+        font-size: 13px;
+    }
+    .news img {
+        height: 150px;
+    }
+    .news h3{
+        font-size: 16px;
+    }
+    .news p{
+        font-size: 14px;
+    }
+    .icons i{
+        font-size: 11px;
+    }
+       /* footer */
+  .footer-last p{
+      font-size: 11px;
+  }
+}
+
+/* css responsiveness-7 */
+@media (max-width:380px) {
+
+    /* header */
+    header{
+        height: 70vh;
+    }
+
+    /* HOME */
+   .top-para{
+    padding: 50px 20px 0 20px;
+    text-align: center;
+   }
+
+   .top-para h1{
+       font-size: 22px;
+   }
+   
+   .top-para p{
+       font-size: 15px;
+   }
+   /* section-1 */
+   .box{
+    height: 60px;
+    margin-top: -30px;
+    }
+
+    .box h2{
+        font-size: 8px;
+    }
+
+    .box p{
+        font-size: 7px;
+    }
+
+    /* ABOUT */
+    .text-a{
+        padding: 10px 10px 0 10px;
+    }
+
+    .text-a p{
+        font-size: 9px;
+    }
+    
+    .img-about{
+        padding: 10px 0px 0 10px;
+    }
+
+    .img-about img{
+        width: 90px;
+        height: 180px;
+    }
+
+    /* section-2 */
+
+    .option{
+        margin-top: 5px;
+        font-size: 8px;
+    }
+ 
+    .features-top p{
+        font-size: 10px;
+    }
+
+    .features-img img{
+        width: 100px;
+        padding-top: 20px;
+    }
+
+      /* ratings */
+      .ratings{
+        height: 60px;
+    }
+
+    .color{
+        height: 60px;
+    }
+
+    .rate{
+        font-size: 7px;
+    }
+
+    /* section-3 */
+     /* container */
+
+     .container div h3{
+        font-size: 12px;
+    }
+
+    .container div span{
+        font-size: 10px;
+    }
+    .container div p{
+        font-size: 8px;
+    }
+
+    .container div img{
+        width: 50%; 
+        height: 40px; 
+    }
+
+     /* watch video demo */
+    .demo p{
+        font-size: 11px;
+    }
+
+    /* pricing-plan */
+    .colorbox h2{
+        font-size: 14px;
+    }
+    .colorbox span{
+        font-size: 20px;
+    }
+    .list ul li{
+        font-size: 8px;
+    }
+    .list-btn{
+        font-size: 6px;
+    }
+     /* our amazing team */
+
+     .team-top p{
+         margin: 5px 15px;
+     }
+    .members{
+        width: 21%;
+        height: 130px;
+        margin: 3px;
+        padding:  6px 0px;
+    }
+    .members img{
+        width: 70%;
+    }      
+    .members h3{
+        font-size:10px;
+        margin-bottom: 3px;
+    }  
+    .members span{
+        font-size:9px;
+    }
+    .members i{
+        font-size:9px;
+        margin-top: 5px;
+    }
+
+     /* teambox */
+     .teambox{
+        height: 130px;
+    }
+    .color3{
+        height: 130px;
+    }
+    .color3 p{
+        font-size: 11px;
+        padding: 10px 0;
+    }
+    .story-btn{
+      font-size: 7px;
+      margin:  2px 1px;
+      padding: 3px 6px;
+    }
+    .story-btn i{
+        font-size: 7px;
+    }
+    /* section-5 */
+    /* latest news */
+    .news-top p{
+        margin: 5px 15px;
+    }
+    .news h3{
+        font-size: 14px;
+    }
+    .news{
+        width: 70%;
+    }
+    .news img {
+        height: 100px;
+    }
+    .news p{
+        font-size: 12px;
+    }
+}
